@@ -1,0 +1,12 @@
+.vs/Mmosoft.Syntax/v15/.suo
+.vs/Mmosoft.Syntax/v15/Server/sqlite3/db.lock
+.vs/Mmosoft.Syntax/v15/Server/sqlite3/storage.ide
+.vs/Mmosoft.Syntax/v15/Server/sqlite3/storage.ide-shm
+.vs/Mmosoft.Syntax/v15/Server/sqlite3/storage.ide-wal
+Mmosoft.Syntax/.vs/Syntax/v15/.suo
+Mmosoft.Syntax/.vs/Syntax/v15/Server/sqlite3/db.lock
+Mmosoft.Syntax/.vs/Syntax/v15/Server/sqlite3/storage.ide
+Mmosoft.Syntax/.vs/Syntax/v15/Server/sqlite3/storage.ide-shm
+Mmosoft.Syntax/.vs/Syntax/v15/Server/sqlite3/storage.ide-wal
+Mmosoft.Syntax/bin/**
+Mmosoft.Syntax/obj/**
