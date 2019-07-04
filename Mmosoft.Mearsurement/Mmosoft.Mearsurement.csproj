@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{33B298DF-5994-49F6-95D0-3A9645429EAF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mmosoft.Measurement</RootNamespace>
+    <AssemblyName>Mmosoft.Measurement</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseMeasurement.cs" />
+    <Compile Include="IMeasurement.cs" />
+    <Compile Include="Mass\IMass.cs" />
+    <Compile Include="Mass\MassConvertor.cs" />
+    <Compile Include="Mass\SIStandard\Attogram.cs" />
+    <Compile Include="Mass\SIStandard\Centigram.cs" />
+    <Compile Include="Mass\SIStandard\Decagram.cs" />
+    <Compile Include="Mass\SIStandard\Decigram.cs" />
+    <Compile Include="Mass\SIStandard\Exagram.cs" />
+    <Compile Include="Mass\SIStandard\Femtogram.cs" />
+    <Compile Include="Mass\SIStandard\Gigagram.cs" />
+    <Compile Include="Mass\SIStandard\Gram.cs" />
+    <Compile Include="Mass\SIStandard\Hectogram.cs" />
+    <Compile Include="Mass\SIStandard\ISIStandardMass.cs" />
+    <Compile Include="Mass\SIStandard\Kilogram.cs" />
+    <Compile Include="Mass\SIStandard\Megagram.cs" />
+    <Compile Include="Mass\SIStandard\Microgram.cs" />
+    <Compile Include="Mass\SIStandard\Milligram.cs" />
+    <Compile Include="Mass\SIStandard\Nanogram.cs" />
+    <Compile Include="Mass\SIStandard\Petagram.cs" />
+    <Compile Include="Mass\SIStandard\Picogram.cs" />
+    <Compile Include="Mass\SIStandard\Teragram.cs" />
+    <Compile Include="Mass\SIStandard\Yoctogram.cs" />
+    <Compile Include="Mass\SIStandard\Yottagram.cs" />
+    <Compile Include="Mass\SIStandard\Zeptogram.cs" />
+    <Compile Include="Mass\SIStandard\Zettagram.cs" />
+    <Compile Include="Mass\USStandard\Dram.cs" />
+    <Compile Include="Mass\USStandard\Grain.cs" />
+    <Compile Include="Mass\USStandard\IUSMassStandard.cs" />
+    <Compile Include="Mass\USStandard\LongHundredWeight.cs" />
+    <Compile Include="Mass\USStandard\LongTon.cs" />
+    <Compile Include="Mass\USStandard\Ounce.cs" />
+    <Compile Include="Mass\USStandard\Pound.cs" />
+    <Compile Include="Mass\USStandard\Ton.cs" />
+    <Compile Include="Mass\USStandard\USHundredWeight.cs" />
+    <Compile Include="Volume\BIStandard\Cup.cs" />
+    <Compile Include="Volume\BIStandard\FluidDram.cs" />
+    <Compile Include="Volume\BIStandard\Gallon.cs" />
+    <Compile Include="Volume\BIStandard\Gill.cs" />
+    <Compile Include="Volume\BIStandard\IBIVolume.cs" />
+    <Compile Include="Volume\BIStandard\Pint.cs" />
+    <Compile Include="Volume\BIStandard\Quart.cs" />
+    <Compile Include="Volume\IVolume.cs" />
+    <Compile Include="Volume\SIStandard\Centimeter.cs" />
+    <Compile Include="Volume\SIStandard\Decimeter.cs" />
+    <Compile Include="Volume\SIStandard\ISIVolume.cs" />
+    <Compile Include="Volume\SIStandard\Meter.cs" />
+    <Compile Include="Volume\USStandard\Cup.cs" />
+    <Compile Include="Volume\USStandard\FluidDram.cs" />
+    <Compile Include="Volume\USStandard\FluidOunce.cs" />
+    <Compile Include="Volume\USStandard\Gallon.cs" />
+    <Compile Include="Volume\USStandard\Gill.cs" />
+    <Compile Include="Volume\USStandard\IUSVolume.cs" />
+    <Compile Include="Volume\USStandard\Pint.cs" />
+    <Compile Include="Volume\USStandard\Quart.cs" />
+    <Compile Include="Volume\USStandard\TableSpoons.cs" />
+    <Compile Include="Volume\USStandard\TeaSpoons.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Volume\VolumeConverter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Volume\BIStandard\ReadMe.txt" />
+    <Content Include="Volume\SIStandard\ReadMe.txt" />
+    <Content Include="Volume\USStandard\ReadMe.txt" />
+    <Content Include="Volume\WinchesterMeasure\ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mmosoft.Syntax", "Mmosoft.Syntax\Mmosoft.Syntax.csproj", "{DF3A69E7-4911-488A-907D-DE720FC07E66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{0342A2BA-1D64-4D67-846D-5A8B5AF5B877}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mmosoft.Mearsurement", "Mmosoft.Mearsurement\Mmosoft.Mearsurement.csproj", "{33B298DF-5994-49F6-95D0-3A9645429EAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mmosoft.Utils", "Mmosoft.Utils\Mmosoft.Utils.csproj", "{47E71A70-0CEA-4B2F-A1F4-AF70AEFE8B78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF3A69E7-4911-488A-907D-DE720FC07E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF3A69E7-4911-488A-907D-DE720FC07E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF3A69E7-4911-488A-907D-DE720FC07E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF3A69E7-4911-488A-907D-DE720FC07E66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0342A2BA-1D64-4D67-846D-5A8B5AF5B877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0342A2BA-1D64-4D67-846D-5A8B5AF5B877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0342A2BA-1D64-4D67-846D-5A8B5AF5B877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0342A2BA-1D64-4D67-846D-5A8B5AF5B877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33B298DF-5994-49F6-95D0-3A9645429EAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33B298DF-5994-49F6-95D0-3A9645429EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33B298DF-5994-49F6-95D0-3A9645429EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33B298DF-5994-49F6-95D0-3A9645429EAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47E71A70-0CEA-4B2F-A1F4-AF70AEFE8B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E71A70-0CEA-4B2F-A1F4-AF70AEFE8B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E71A70-0CEA-4B2F-A1F4-AF70AEFE8B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E71A70-0CEA-4B2F-A1F4-AF70AEFE8B78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9454D748-F85C-4855-A1AF-F53EEFA2D710}
+	EndGlobalSection
+EndGlobal

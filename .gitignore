@@ -10,3 +10,10 @@ Mmosoft.Syntax/.vs/Syntax/v15/Server/sqlite3/storage.ide-shm
 Mmosoft.Syntax/.vs/Syntax/v15/Server/sqlite3/storage.ide-wal
 Mmosoft.Syntax/bin/**
 Mmosoft.Syntax/obj/**
+/Test/bin/**
+/Test/obj/**
+/Mmosoft.v11.suo
+/Mmosoft.Utils/obj/**
+/Mmosoft.Utils/bin/**
+/Mmosoft.Mearsurement/obj/**
+/Mmosoft.Mearsurement/bin/**
