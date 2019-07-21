@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mmosoft.Mearsurement", "Mmo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mmosoft.Utils", "Mmosoft.Utils\Mmosoft.Utils.csproj", "{47E71A70-0CEA-4B2F-A1F4-AF70AEFE8B78}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mmosoft.Http", "Mmosoft.Http\Mmosoft.Http.csproj", "{BE11A4C0-AEF7-4E39-840F-EBF72772E71B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{47E71A70-0CEA-4B2F-A1F4-AF70AEFE8B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47E71A70-0CEA-4B2F-A1F4-AF70AEFE8B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47E71A70-0CEA-4B2F-A1F4-AF70AEFE8B78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE11A4C0-AEF7-4E39-840F-EBF72772E71B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE11A4C0-AEF7-4E39-840F-EBF72772E71B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE11A4C0-AEF7-4E39-840F-EBF72772E71B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE11A4C0-AEF7-4E39-840F-EBF72772E71B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

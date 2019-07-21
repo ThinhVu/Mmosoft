@@ -17,17 +17,4 @@ namespace Mmosoft.Measurement.Mass.SIStandard
             this.Value = value;
         }
     }
-
-    public static class MassEx
-    {
-        public static Gram g(this int v)
-        {
-            return new Gram(v);
-        }
-
-        public static Kilogram kg(this int v)
-        {
-            return new Kilogram(v);
-        }
-    }
 }
